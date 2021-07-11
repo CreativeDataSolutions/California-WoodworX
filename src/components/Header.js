@@ -3,6 +3,8 @@ import React from 'react'
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
 
+import { SITE_CONTENT } from './Gallery/constants/site_content'
+
 const Header = () => (
   <header id="header">
     <div className="inner">
@@ -10,11 +12,9 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I am Strata</strong>, a super simple
-        <br />
-        responsive site template freebie
-        <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+      <strong> California Woodworx </strong>
+      Custom Cabinetry and Refacing professionals.
+      <strong> You dream it we build it.</strong>
       </h1>
     </div>
     <Footer />

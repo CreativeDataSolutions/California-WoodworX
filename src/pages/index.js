@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'California WoodworX'
+  const siteDescription = 'Custom Cabinetry and Refacing professionals. You dream it we build it'
 
   return (
     <Layout>
@@ -19,23 +19,18 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+            California WoodworX
               <br />
-              magna sed accumsan arcu neque.
+              <strong>You dream it we build it.</strong>
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+           Get in touch call 530-210-1739
           </p>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a href="mailto:californiawoodworx@gmail.com" className="button">
+                Contact
               </a>
             </li>
           </ul>
@@ -58,9 +53,7 @@ const HomeIndex = () => {
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+           We would love to hear from you.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
@@ -104,9 +97,9 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  54 P and S lane Newcastle
                   <br />
-                  Nashville, TN 00000
+                  CA 9565
                   <br />
                   United States
                 </li>
@@ -114,13 +107,13 @@ const HomeIndex = () => {
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  530-210-1739
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="mailto:californiawoodworx@gmail.com">californiawoodworx@gmail.com</a>
                 </li>
               </ul>
             </div>

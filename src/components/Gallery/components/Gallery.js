@@ -2,7 +2,8 @@ import React, { useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
-import { DEFAULT_IMAGES } from '../constants/defaultImages'
+import { DEFAULT_IMAGES } from '../constants/thumb'
+import { Carousel_images } from '../constants/carousel'
 
 const Gallery = ({ images = DEFAULT_IMAGES }) => {
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
@@ -34,7 +35,10 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
       <ModalGateway>
         {lightboxIsOpen && (
           <Modal onClose={toggleLightbox}>
-            <Carousel currentIndex={selectedIndex} views={images} />
+            <div>
+            <Carousel currentIndex={Carousel_images[selectedIndex].id} views={Carousel_images[selectedIndex]}/>
+            <p align ="center">{images[selectedIndex].long_description}</p> 
+            </div>
           </Modal>
         )}
       </ModalGateway>
